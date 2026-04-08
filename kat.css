@@ -51,3 +51,37 @@ nav a:hover {
     text-decoration: underline;
     color:white
 }
+.info {
+    background-color: rgb(13, 13, 101);
+    border-radius: 15px;
+    padding: 20px;
+    width:90%;
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+}
+.abilities {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+h2 {
+    color: white;
+    font-size: 16px;
+}
+.lore {
+    background-color: rgb(13, 13, 101);
+    border-radius: 15px;
+    padding: 20px;
+    width:70%;
+    color: white;
+    margin: 20px auto;
+}
+.katarina-image2 {
+    width: auto;
+    height: 400px;
+    border-radius: 15px;
+}
