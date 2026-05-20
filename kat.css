@@ -1,22 +1,26 @@
 header {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.brown {
     background-color: brown;
     text-align: left;
     padding: 10px;
     border-radius: 15px;
 }
-.head1 {
-    display:grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    gap: 10px;
-}
 .red {
     background-color: rgb(13, 13, 101);
     border-radius: 15px;
     padding: 20px;
-    width:50%;
     color: white;
 }
+
 body {
     background-color: burlywood;
     font-family: Beaufort, serif;
@@ -47,20 +51,24 @@ nav a {
     color: rgb(190, 173, 74);
     text-decoration: none;
     font-size: 18px;
-    
+
 }
 nav a:hover {
     text-decoration: underline;
     color:white
 }
-.info {
+main {
+    width:90%;
+    margin: 20px auto;
+    padding: 20px;
     background-color: rgb(13, 13, 101);
     border-radius: 15px;
-    padding: 20px;
-    width:90%;
     color: white;
-    display:grid;
-    grid-template-columns: 1fr;
+}
+.two-columns {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
 }
 .abilities {
     display: grid;
@@ -68,7 +76,7 @@ nav a:hover {
     background-color: brown;
     padding: 20px;
     border-radius: 15px;
-    margin: 20px auto;
+    margin: 20px 0;
 }
 h2 {
     color: white;
@@ -78,9 +86,7 @@ h2 {
     background-color: rgb(13, 13, 101);
     border-radius: 15px;
     padding: 20px;
-    width:70%;
     color: white;
-    margin: 20px auto;
 }
 .katarina-image2 {
     width: auto;
@@ -138,4 +144,4 @@ label {
     color: white;
     font-weight: bold;
     margin-left: 5px;
-}   
+}
