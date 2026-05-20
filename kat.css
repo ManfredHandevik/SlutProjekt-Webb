@@ -5,7 +5,8 @@ header {
     border-radius: 15px;
 }
 .head1 {
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr auto;
     align-items: center;
     gap: 10px;
 }
@@ -23,7 +24,8 @@ body {
     padding: 20px;
 }
 nav {
-    display:flex;
+    display:grid;
+    grid-auto-flow: column;
     justify-content: center;
     gap: 50px;
     background-color: rgb(13, 13, 101);
@@ -57,12 +59,12 @@ nav a:hover {
     padding: 20px;
     width:90%;
     color: white;
-    display:flex;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: 1fr;
 }
 .abilities {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     background-color: brown;
     padding: 20px;
     border-radius: 15px;
@@ -95,8 +97,8 @@ h2 {
     padding: 10px;
     width:100%;
     color: white;
-    display:flex;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: 1fr;
     text-align: left;
 }
 th {
@@ -108,8 +110,8 @@ li {
     font-weight: bold;
 }
 form {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 10px;
     background-color: rgb(13, 13, 101);
     max-width: auto;
